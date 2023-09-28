@@ -12,12 +12,13 @@ import Then
 class ViewController: UIViewController {
     
     private let scrollView = UIScrollView().then {
-        $0.backgroundColor = .white
+        $0.backgroundColor = .systemBlue
     }
     
     private let stackView = UIStackView().then {
         $0.axis = .vertical
         $0.spacing = 10
+        $0.backgroundColor = .black
     }
     
     private let titlelabel = UILabel().then {
@@ -53,9 +54,14 @@ class ViewController: UIViewController {
     
     func setup() {
         view.backgroundColor = .white
+        
         view.addSubview(scrollView)
         scrollView.addSubview(stackView)
-        [titlelabel, label, titletextViewLabel, textView].forEach(stackView.addArrangedSubview)
+        
+        stackView.addArrangedSubview(titlelabel)
+        stackView.addArrangedSubview(label)
+        stackView.addArrangedSubview(titletextViewLabel)
+        stackView.addArrangedSubview(textView)
         
         setConstraint()
     }
@@ -66,7 +72,7 @@ class ViewController: UIViewController {
         }
         
         stackView.snp.makeConstraints {
-            $0.edges.width.equalToSuperview()
+            $0.edges.equalToSuperview().inset(UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10))
         }
         
         titlelabel.snp.makeConstraints {
@@ -75,7 +81,7 @@ class ViewController: UIViewController {
         }
         
         label.snp.makeConstraints {
-            $0.edges.equalToSuperview().
+            $0.edges.equalTo(stackView)
         }
     }
     

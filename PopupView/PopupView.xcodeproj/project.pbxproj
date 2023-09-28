@@ -23,7 +23,6 @@
 		AA7D394A2A6637BC000DF547 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA7D39492A6637BC000DF547 /* SnapKit */; };
 		AA7D394D2A6637D0000DF547 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = AA7D394C2A6637D0000DF547 /* Then */; };
 		AA7D394F2A663C2F000DF547 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D394E2A663C2F000DF547 /* Font.swift */; };
-		AA7D39512A665D8D000DF547 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D39502A665D8D000DF547 /* PopupViewController.swift */; };
 		AA7D39532A667CAE000DF547 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D39522A667CAE000DF547 /* WhiteButton.swift */; };
 		AA7D39572A6687FF000DF547 /* BlueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D39562A6687FF000DF547 /* BlueButton.swift */; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		AA7D39402A6633F6000DF547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7D39462A66354F000DF547 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		AA7D394E2A663C2F000DF547 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		AA7D39502A665D8D000DF547 /* PopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopupViewController.swift; path = "../../../../../../../../Downloads/ExCustomPopup-main/ExCustomPopup/PopupViewController.swift"; sourceTree = "<group>"; };
 		AA7D39522A667CAE000DF547 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		AA7D39562A6687FF000DF547 /* BlueButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +87,6 @@
 				AA7D393B2A6633F6000DF547 /* Assets.xcassets */,
 				AA7D393D2A6633F6000DF547 /* LaunchScreen.storyboard */,
 				AA7D39402A6633F6000DF547 /* Info.plist */,
-				AA7D39502A665D8D000DF547 /* PopupViewController.swift */,
 				AA7D39462A66354F000DF547 /* PopupView.swift */,
 				AA7D394E2A663C2F000DF547 /* Font.swift */,
 				AA7D39522A667CAE000DF547 /* WhiteButton.swift */,
@@ -194,7 +191,6 @@
 				AA56EF882A67D059007928B0 /* Info4PopupViewController.swift in Sources */,
 				AA7D39332A6633F5000DF547 /* AppDelegate.swift in Sources */,
 				AA7D39352A6633F5000DF547 /* SceneDelegate.swift in Sources */,
-				AA7D39512A665D8D000DF547 /* PopupViewController.swift in Sources */,
 				AA56EF822A67BA74007928B0 /* Info3PopupView.swift in Sources */,
 				AA7D39572A6687FF000DF547 /* BlueButton.swift in Sources */,
 			);
